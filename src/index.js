@@ -3,9 +3,6 @@ export class Animal {
     if (!(typeof name === "string") && !(typeof age === "number") && !(typeof legs === "number") && !(typeof species === "string")) {
       throw TypeError("Invalid arguments type");
     }
-    if (age < 0 || age > 200) {
-      throw Error("Age Not feasible");
-    }
     this.name = name;
     this.age = age;
     this.legs = legs;
