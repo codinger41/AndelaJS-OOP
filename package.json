@@ -1,0 +1,34 @@
+{
+  "name": "andelajs-oop",
+  "version": "1.0.0",
+  "description": "Full OOP concepts",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js --require babel-register --reporter spec || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leksyib/AndelaJS-OOP.git"
+  },
+  "keywords": [
+    "OOP"
+  ],
+  "author": "leksyib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leksyib/AndelaJS-OOP/issues"
+  },
+  "homepage": "https://github.com/leksyib/AndelaJS-OOP#readme"
+}

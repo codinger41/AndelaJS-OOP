@@ -16,7 +16,7 @@ import {expect} from 'chai';
      });
    });
 
-   describe("Shark", () => {
+   describe("Shark ", () => {
      it("Should be a subclass of Animal", () => {
        expect(new Shark("Nemo", 15,0, 'Shark')).to.instanceOf(
          Animal
