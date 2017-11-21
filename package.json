@@ -16,7 +16,7 @@
     "mocha": "^4.0.1"
   },
   "scripts": {
-    "test": "mocha tests/test.js --require babel-register --reporter spec || exit 0"
+    "test": "mocha tests/index.test.js --require babel-register --reporter spec || exit 0"
   },
   "repository": {
     "type": "git",
